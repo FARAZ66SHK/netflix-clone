@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.main img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main h1{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    color: rgb(233, 24, 24);
+    font-family: "Poppins", sans-serif;
+  font-weight: 750;
+  font-style: italic;
+  padding: 10px;
+  margin: 5px;
+  font-size: 250%;
+
+}
+.main button{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    margin: 25px;
+    width: 6%;
+    height: 5%;
+    border: none;
+    background-color:  rgb(233, 24, 24);
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+   
+
+}
+.main .title{
+  
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: 370%;
+    
+   
+
+}
+.main .title2{
+  
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    color: white;
+    font-size: 370%;
+    
+   
+
+}
+.main p{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .perg{
+    position: absolute;
+    top: 64%;
+    left: 30%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main input {
+    position: absolute;
+    top: 70%;
+    left: 26%;
+    width: 30%;
+    height: 8%;
+    background-color: transparent; 
+    border: 1px solid white;  
+    color: #000; 
+    padding: 5px;
+    cursor: pointer;
+}
+
+    
+    
+    
+.start button{
+    background-color: red;
+    color: white;
+    width: 15%;
+    height: 8%;
+    position: absolute;
+    top: 70%;
+    left:57% ;
+    border: none;
+    border-radius: 4%;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.start button:hover{
+    background-color: rgb(194, 13, 13);
+}
+.main button:hover{
+    background-color: rgb(194, 13, 13);
+
+}
+
